@@ -1,0 +1,8 @@
+<script>
+import { resolve } from "$app/paths"
+</script>
+
+
+<a href={resolve("/")}>
+    <h1 class="text-5xl font-display pb-4">Candyshop</h1>
+</a>
