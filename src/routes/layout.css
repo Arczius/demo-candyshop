@@ -1,1 +1,6 @@
+@import url("/fonts/childer/Childer.css");
 @import 'tailwindcss';
+
+@theme {
+    --font-display: "Childer";
+}
