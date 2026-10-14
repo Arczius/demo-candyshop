@@ -2,7 +2,7 @@
 	import './layout.css';
 	import favicon from '#lib/assets/favicon.svg';
 	import type { LayoutProps } from './$types';
-	import Sidebar from '../components/Sidebar.svelte';
+	import NavBar from '#lib/components/NavBar.svelte';
 
 	let { children }: LayoutProps = $props();
 </script>
@@ -12,7 +12,7 @@
 </svelte:head>
 
 <div class="flex gap-1.5 bg-fuchsia-100 min-h-screen">
-	<Sidebar/>	
+	<NavBar/>	
 	<div class="w-full px-1.5">
 		{@render children()}
 	</div>
