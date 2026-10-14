@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-    <title>{data.product.name} | Candyshop</title>
+    <title>{data.product.name} | SweetSpot</title>
     <meta name="description" content={data.product.description} />
 </svelte:head>
 

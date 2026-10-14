@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>CandyShop - Home</title>
+    <title>SweetSpot - Home</title>
 </svelte:head>
 
 <div>
