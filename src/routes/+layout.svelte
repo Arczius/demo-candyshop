@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '#lib/assets/favicon.svg';
 	import type { LayoutProps } from './$types';
+	import Sidebar from '../components/Sidebar.svelte';
 
 	let { children }: LayoutProps = $props();
 </script>
@@ -10,4 +11,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{@render children()}
+<div class="flex gap-1.5 bg-fuchsia-100 min-h-screen">
+	<Sidebar/>	
+	{@render children()}
+</div>
