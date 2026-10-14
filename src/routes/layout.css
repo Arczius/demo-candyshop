@@ -4,3 +4,7 @@
 @theme {
     --font-display: "Childer";
 }
+
+html {
+  scroll-behavior: smooth;
+}

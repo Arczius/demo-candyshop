@@ -1,3 +1,11 @@
 {
-    "products": []
+    "products": [
+        {
+            "id": 1,
+            "name": "Monster The Beast Pink Poison",
+            "description": "Our original crew has been making drinks for 30+ years now. Our favorite brand Monster Energy is about to turn 21. We figured why not celebrate the big day by making an adult beverage. We hit delete on the energy blend, cut out the caffeine and ditched the sugar. Next we brewed up the smoothest tasting alcohol ever and blended it with our tried and true flavors. The Beast is Unleashed! Great Taste, six point 'oh my' percent alcohol and no sugar to weigh you down. Get ready to celebrate and don't be afraid of the big bad beast. The Beast Pink Poison Flavored Malt Beverage, 24 fl oz single can. 6.0% ABV. ",
+            "image_url": "/_products/images/drinks/MonsterTheBeastPinkPoison.webp",
+            "price": 5
+        }
+    ]
 }
