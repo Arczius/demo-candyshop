@@ -13,5 +13,7 @@
 
 <div class="flex gap-1.5 bg-fuchsia-100 min-h-screen">
 	<Sidebar/>	
-	{@render children()}
+	<div class="w-full px-1.5">
+		{@render children()}
+	</div>
 </div>
