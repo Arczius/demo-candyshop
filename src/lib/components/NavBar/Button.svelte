@@ -5,7 +5,7 @@ let {
     active = false
 } = $props();
 
-const base = "py-3 text-center block rounded shadow"
+const base = "py-3 text-center block rounded shadow font-bold"
 </script>
 
 <a {href}>
