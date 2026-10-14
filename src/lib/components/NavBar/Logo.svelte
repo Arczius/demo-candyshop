@@ -4,5 +4,5 @@ import { resolve } from "$app/paths"
 
 
 <a href={resolve("/")}>
-    <h1 class="text-5xl font-display pb-4">Candyshop</h1>
+    <h1 class="text-5xl font-display pb-4">SweetSpot</h1>
 </a>
