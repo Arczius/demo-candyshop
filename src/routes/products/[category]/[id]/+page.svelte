@@ -1,7 +1,11 @@
 <script lang="ts">
     import type { PageProps } from './$types';
 
+    import H3 from "#lib/components/text/H3.svelte";
+    import H2 from "#lib/components/text/H2.svelte";
+    import Paragraph from '#lib/components/text/Paragraph.svelte';
     import ProductImage from './ProductImage.svelte';
+
     let { data }: PageProps = $props();
 </script>
 
@@ -14,12 +18,12 @@
     <ProductImage product={data.product}/>
     
     <div>
-        <h2 class="text-2xl font-bold">{data.product.name}</h2>
-        <p>€{data.product.price.toFixed(2)}</p>
+        <H2>{data.product.name}</H2>
+        <Paragraph>€ {data.product.price.toFixed(2)}</Paragraph>
         
         <section>
-            <h3 class="font-bold text-m">Description</h3>
-            <p>{data.product.description}</p>
+            <H3>Description</H3>
+            <Paragraph>{data.product.description}</Paragraph>
         </section>
     </div>
 </article>
