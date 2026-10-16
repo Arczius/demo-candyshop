@@ -14,7 +14,7 @@
     <meta name="description" content={data.product.description} />
 </svelte:head>
 
-<article class="my-0 mx-auto max-w-7xl grid xl:flex gap-4 xl:py-8">
+<article class="my-0 mx-auto max-w-7xl grid xl:flex gap-4 xl:py-4">
     <ProductImage product={data.product}/>
     
     <div>
