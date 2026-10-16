@@ -9,9 +9,9 @@ import Card from "./Card.svelte";
 <main>
     <H2>{page.params.category}</H2>
 
-    {#each data.products as product (product.id)}
-        <div class="grid gap-1.5 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
-            <Card category={page.params.category} product={product}/>
-        </div>
-    {/each}
+    <div class="grid gap-1.5 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
+        {#each data.products as product (product.id)}
+                <Card category={page.params.category} product={product}/>
+        {/each}
+    </div>
 </main>
