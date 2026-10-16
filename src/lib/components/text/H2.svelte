@@ -4,6 +4,6 @@ let {
 } = $props();
 </script>
 
-<h2 class="font-display text-4xl">
+<h2 class="font-display text-4xl first-letter:uppercase">
 {@render children?.()}
 </h2>
