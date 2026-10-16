@@ -11,6 +11,11 @@ export const load: PageLoad = async ({ params, fetch }) => {
 
     const { products } = await response.json();
 
+    if(products.length == 0)
+    {
+        error(404, 'Category found but no products')
+    }
+
     return { products }
 
 };
