@@ -9,7 +9,7 @@ export const load: PageLoad = async ({ params, fetch }) => {
 	    error(404, 'Not found');
     }
 
-    const products = await response.json();
+    const { products } = await response.json();
 
     return { products }
 
