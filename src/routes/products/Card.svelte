@@ -1,5 +1,5 @@
 <script>
-import {resolve} from "$app/paths";
+import { resolve } from "$app/paths";
 
 import H4 from "#lib/components/text/H4.svelte";
 import Paragraph from "#lib/components/text/Paragraph.svelte";
