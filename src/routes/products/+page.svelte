@@ -1,4 +1,5 @@
 <script>
+import { resolve } from "$app/paths";
 let { data } = $props();
 
 import H2 from "#lib/components/text/H2.svelte"
@@ -9,9 +10,16 @@ import Card from "./Card.svelte";
 
 <main>
     <H2>Our Categories:</H2>
-    <div>
-        <div></div>
-        <div></div>
+    <div class="grid md:grid-cols-2 max-w-xl mx-auto gap-4">
+        <a
+            class="w-full bg-fuchsia-200 p-3 rounded-xl min-h-24 flex justify-center items-center text-3xl font-display"
+            href={resolve("/products/candy")}
+        ><span>Candy</span></a>
+        <a
+
+            class="w-full bg-fuchsia-200 p-3 rounded-xl min-h-24 flex justify-center items-center text-3xl font-display"
+            href={resolve("/products/drinks")}
+        ><span>Drinks</span></a>
     </div>
 
     <H3>Recommendations: </H3>
