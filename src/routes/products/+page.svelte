@@ -10,7 +10,7 @@ import Card from "./Card.svelte";
 
 <main>
     <H2>Our Categories:</H2>
-    <div class="grid md:grid-cols-2 max-w-7xl mx-auto gap-4">
+    <div class="grid md:grid-cols-2 max-w-7xl mx-auto gap-4 pb-4">
         <a
             class="w-full bg-fuchsia-200 p-3 rounded-xl min-h-24 flex justify-center items-center text-3xl font-display"
             href={resolve("/products/candy")}
