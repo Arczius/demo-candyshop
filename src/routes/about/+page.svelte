@@ -63,6 +63,6 @@ const list = [
         Whether you're looking for snacks for a cozy movie night, a treat for the family, or simply something delicious for yourself, SweetSpot makes shopping quick and convenient.
     </Paragraph>
 
-    <b>Discover your favorites and make every moment a little sweeter! 🍬</b>
+    <b>Discover your favorites and make every moment a little sweeter! <span class="text-3xl">🍬</span></b>
     
 </main>
