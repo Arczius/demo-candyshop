@@ -17,5 +17,4 @@ export const load: PageLoad = async ({ params, fetch }) => {
     }
 
     return { products }
-
 };
