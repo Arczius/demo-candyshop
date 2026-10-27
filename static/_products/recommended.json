@@ -15,6 +15,14 @@
             "image_url": "/_products/images/drinks/rb_bottle.webp",
             "price": 4,
             "url": "/products/drinks/2"
+        },
+        {
+            "id": 4,
+            "name": "Sparkling Drink Gohan",
+            "description": "Ingredients: Carbonated water (99%), high fructose glucose syrup, sugar, peach flavor (0.0014%), acidity regulator: E330.",
+            "image_url": "/_products/images/drinks/gohan.webp",
+            "price": 4.5,
+            "url": "/products/drinks/4"
         }
     ]
 }

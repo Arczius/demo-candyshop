@@ -13,6 +13,34 @@
             "description": "Red Bull Energy Drink is more than just a drink - it's a performance-enhancing partner to help you get through the day. ",
             "image_url": "/_products/images/drinks/rb_bottle.webp",
             "price": 4
+        },
+        {
+            "id": 3,
+            "name": "Sparkling Drink Goku",
+            "description": "Ingredients: Carbonated water (99%), high fructose glucose syrup, sugar, peach flavor (0.0014%), acidity regulator: E330.",
+            "image_url": "/_products/images/drinks/goku.webp",
+            "price": 4.5
+        },
+        {
+            "id": 4,
+            "name": "Sparkling Drink Gohan",
+            "description": "Ingredients: Carbonated water (99%), high fructose glucose syrup, sugar, peach flavor (0.0014%), acidity regulator: E330.",
+            "image_url": "/_products/images/drinks/gohan.webp",
+            "price": 4.5
+        },
+        {
+            "id": 5,
+            "name": "Sparkling Drink Gotenks",
+            "description": "Ingredients: Carbonated water (99%), high fructose glucose syrup, sugar, peach flavor (0.0014%), acidity regulator: E330.",
+            "image_url": "/_products/images/drinks/gotenks.webp",
+            "price": 4.5
+        },
+        {
+            "id": 6,
+            "name": "Sparkling Drink Zamasu",
+            "description": "Ingredients: Carbonated water (99%), high fructose glucose syrup, sugar, peach flavor (0.0014%), acidity regulator: E330.",
+            "image_url": "/_products/images/drinks/zamasu.jpg",
+            "price": 4.5
         }
     ]
 }
