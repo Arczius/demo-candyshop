@@ -6,7 +6,6 @@ import Button from "./NavBar/Button.svelte"
 
 const links = [
     { label: 'Home', href: '/' },
-    { label: 'Products', href: '/products' },
     { label: 'About', href: '/about' },
 ]
 </script>
