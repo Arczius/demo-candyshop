@@ -8,3 +8,27 @@
 html {
   scroll-behavior: smooth;
 }
+
+@keyframes product-shake {
+  0%, 90%, 100% {
+    transform: rotate(0deg);
+  }
+  92% {
+    transform: rotate(-5deg);
+  }
+  94% {
+    transform: rotate(5deg);
+  }
+  96% {
+    transform: rotate(-4deg);
+  }
+  98% {
+    transform: rotate(2deg);
+  }
+}
+
+.shake {
+  animation: product-shake 4s infinite;
+  transform-origin: center bottom;
+  animation-delay: 5s;
+}
