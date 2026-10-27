@@ -9,7 +9,7 @@ let { url, product } = $props();
 
 <a href={resolve(url)} class="shadow bg-fuchsia-200 p-1.5 rounded-xl"> 
     <img
-        class="rounded-t-xl bg-white pb-2 max-h-52 w-full object-contain"
+        class="rounded-t-xl bg-white py-2 max-h-52 w-full object-contain"
         src={product.image_url}
         alt="product picture for {product.name}"
     >
