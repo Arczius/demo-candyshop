@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>SweetSpot - Home</title>
+    <title>SweetSpot</title>
 </svelte:head>
 
 <script>

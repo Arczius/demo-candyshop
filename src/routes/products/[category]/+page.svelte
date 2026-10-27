@@ -4,7 +4,18 @@ let { data } = $props();
 import { page } from '$app/state';
 
 import Card from "../Card.svelte";
+
+function capitalize(s)
+{
+    return String(s[0]).toUpperCase() + String(s).slice(1);
+}
+
+let category = capitalize(page.params.category)
 </script>
+
+<svelte:head>
+    <title>{ category } | SweetSpot</title>
+</svelte:head>
 
 <main>
     <H2>{page.params.category}</H2>

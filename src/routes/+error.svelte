@@ -4,7 +4,7 @@ import Link from "#lib/components/Link.svelte";
 </script>
 
 <svelte:head>
-    <title>Error {page.status}</title>
+    <title>Error {page.status} | SweetSpot</title>
 </svelte:head>
 
 <div class="flex h-full items-center justify-center">

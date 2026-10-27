@@ -25,7 +25,7 @@ const list = [
 </script>
 
 <svelte:head>
-    <title>SweetSpot - About</title>
+    <title>About | SweetSpot</title>
 </svelte:head>
 
 <main>
