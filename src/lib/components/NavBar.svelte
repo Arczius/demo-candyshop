@@ -10,10 +10,12 @@ const links = [
 ]
 </script>
 
-<nav class="h-96 w-xs bg-fuchsia-200 rounded-tr-xl rounded-br-xl mt-1 mb-1 sticky top-0.5 p-2 ">
+<nav 
+    class=" bg-fuchsia-200 rounded-tr-xl rounded-br-xl sticky p-2 lg:top-2 lg:w-xs"
+>
     <div>
         <Logo/>
-        <div class="grid gap-2">
+        <div class="grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 grid gap-2">
             {#each links as link (link.href)}
                 <Button 
                     href={link.href} 
