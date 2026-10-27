@@ -8,7 +8,7 @@ let {
 </script>
 
 
-<section>
+<section class="max-w-xl">
     <H3>Description</H3>
     <Paragraph>{content}</Paragraph>
 </section>
