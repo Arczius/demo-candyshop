@@ -2,7 +2,6 @@
 import { resolve } from "$app/paths";
 
 import H4 from "#lib/components/text/H4.svelte";
-import Paragraph from "#lib/components/text/Paragraph.svelte";
 
 let { url, product } = $props();
 </script>
@@ -16,5 +15,5 @@ let { url, product } = $props();
     <H4>
         {product.name}
     </H4>
-    <Paragraph>€ {product.price.toFixed(2)}</Paragraph>
+    <p>€ {product.price.toFixed(2)}</p>
 </a>
