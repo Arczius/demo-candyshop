@@ -8,7 +8,11 @@ let { url, product } = $props();
 </script>
 
 <a href={resolve(url)} class="shadow bg-fuchsia-200 p-1.5 rounded-xl"> 
-    <img src={product.image_url} alt="" class="rounded-xl pb-2">
+    <img
+        class="pb-2 max-h-52 w-full object-contain"
+        src={product.image_url}
+        alt="product picture for {product.name}"
+    >
     <H4>
         {product.name}
     </H4>
