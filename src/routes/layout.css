@@ -30,5 +30,5 @@ html {
 .shake {
   animation: product-shake 4s infinite;
   transform-origin: center bottom;
-  animation-delay: 5s;
+  animation-delay: 2s;
 }
