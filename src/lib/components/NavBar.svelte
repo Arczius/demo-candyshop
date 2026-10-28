@@ -19,7 +19,7 @@ function handleClick()
 </script>
 
 <nav 
-    class=" bg-fuchsia-200 rounded-tr-xl rounded-br-xl sticky p-2 lg:top-2 lg:w-xs grid gap-2"
+    class=" bg-fuchsia-200 rounded-tr-xl rounded-br-xl sticky p-2 max-h-screen top-0 lg:w-xs grid gap-2"
 >
     <div>
         <Logo/>
