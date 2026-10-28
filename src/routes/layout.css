@@ -1,8 +1,11 @@
-@import url("/fonts/childer/Childer.css");
+@import url("/fonts/Childer/Childer.css");
+@import url("/fonts/OpenDyslexic/OpenDyslexic.css");
+
 @import 'tailwindcss';
 
 @theme {
     --font-display: "Childer";
+    --font-sans: "OpenDyslexic";
 }
 
 html {
