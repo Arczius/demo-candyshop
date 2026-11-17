@@ -11,6 +11,7 @@ import Button from "#lib/components/Button.svelte";
 const links = [
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
+    { label: 'Shoppingcart', href: '/checkout' },
 ]
 
 
