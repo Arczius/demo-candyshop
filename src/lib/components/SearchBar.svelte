@@ -32,7 +32,7 @@
 <div class="grid">
     {#if search.trim()}
 
-        <div class="max-h-32 lg:max-h-48 overflow-scroll p-2 rounded-t bg-white">
+        <div class="max-h-32 lg:max-h-48 overflow-y-scroll p-2 rounded-t bg-white">
             {#if filteredDrinks.length === 0 && filteredCandy.length === 0}
                 <p>No products found</p>
             {/if}
