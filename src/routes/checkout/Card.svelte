@@ -29,7 +29,7 @@
     <div class="flex shrink-0 flex-col items-center gap-1">
         <button
             onclick={onIncrease}
-            class="h-7 w-8 rounded-md bg-fuchsia-300 hover:bg-fuchsia-400"
+            class="h-7 w-8 rounded-md bg-fuchsia-300 hover:bg-fuchsia-400 cursor-pointer"
         >
             +
         </button>
@@ -38,7 +38,7 @@
 
         <button
             onclick={onDecrease}
-            class="h-7 w-8 rounded-md bg-fuchsia-300 hover:bg-fuchsia-400"
+            class="h-7 w-8 rounded-md bg-fuchsia-300 hover:bg-fuchsia-400 cursor-pointer"
         >
             -
         </button>
