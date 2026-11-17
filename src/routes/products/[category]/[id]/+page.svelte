@@ -3,17 +3,12 @@
 
     import H2 from "#lib/components/text/H2.svelte";
     import Paragraph from '#lib/components/text/Paragraph.svelte';
-    import Button from "#lib/components/Button.svelte";
+    import AddToCart from '#lib/components/AddToCart.svelte';
 
     import ProductImage from './ProductImage.svelte';
     import Description from './Description.svelte';
 
     let { data }: PageProps = $props();
-
-    function handleClick()
-    {
-        alert("this hasn't been implemented yet since it's just a prototype");
-    }
 </script>
 
 <svelte:head>
@@ -28,6 +23,6 @@
         <H2>{data.product.name}</H2>
         <Paragraph>€ {data.product.price.toFixed(2)}</Paragraph>
         <Description content={data.product.description}/>
-        <Button onclick={handleClick()}>Add to cart</Button>
+        <AddToCart product={data.product}></AddToCart>
     </div>
 </article>
