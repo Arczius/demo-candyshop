@@ -4,6 +4,8 @@ import { page } from "$app/state";
 import Logo from "./NavBar/Logo.svelte";
 import NavButton from "./NavBar/NavButton.svelte"
 
+import SearchBar from "#lib/components/SearchBar.svelte"
+
 import Button from "#lib/components/Button.svelte";
 
 const links = [
@@ -19,7 +21,7 @@ function handleClick()
 </script>
 
 <nav 
-    class="bg-fuchsia-200 rounded-tr-xl rounded-br-xl sticky p-2 max-h-screen top-0 lg:w-xs grid gap-2"
+    class="bg-fuchsia-200 rounded-tr-xl rounded-br-xl lg:sticky p-2 max-h-screen top-0 lg:w-xs grid gap-2"
 >
     <div>
         <Logo/>
@@ -33,7 +35,8 @@ function handleClick()
             {/each}
         </div>
     </div>
-    <div class="mt-auto">
+    <div class="mt-auto grid gap-2">
+        <SearchBar/>
         <Button class="w-full" onclick={handleClick}>Login</Button>
     </div>
 </nav>
