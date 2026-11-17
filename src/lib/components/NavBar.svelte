@@ -4,6 +4,8 @@ import { page } from "$app/state";
 import Logo from "./NavBar/Logo.svelte";
 import NavButton from "./NavBar/NavButton.svelte"
 
+import SearchBar from "#lib/components/SearchBar.svelte"
+
 import Button from "#lib/components/Button.svelte";
 
 const links = [
@@ -34,6 +36,7 @@ function handleClick()
         </div>
     </div>
     <div class="mt-auto">
+        <SearchBar/>
         <Button class="w-full" onclick={handleClick}>Login</Button>
     </div>
 </nav>
