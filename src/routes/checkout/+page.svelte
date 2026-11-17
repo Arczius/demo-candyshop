@@ -52,6 +52,10 @@
     }
 </script>
 
+<svelte:head>
+    <title>Checkout | SweetSpot</title>
+</svelte:head>
+
 <Container>
     {#if cart.length === 0}
     <div class="flex flex-col items-center justify-center py-16 text-center">
