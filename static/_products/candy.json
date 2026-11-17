@@ -1,3 +1,88 @@
 {
-    "products": []
+  "products": [
+    {
+      "id": 1,
+      "name": "Nerds Gummy Clusters",
+      "description": "American chewy gummy candy covered in a crunchy layer of tiny, tangy Nerds pieces.",
+      "image_url": "/_products/images/candy/nerds-gummy-clusters.png",
+      "price": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Japanese Strawberry Pocky",
+      "description": "Japanese biscuit sticks coated in a smooth strawberry-flavoured cream.",
+      "image_url": "/_products/images/candy/japanese-strawberry-pocky.png",
+      "price": 3
+    },
+    {
+      "id": 3,
+      "name": "Korean Choco Pie",
+      "description": "A soft chocolate-coated cake with a fluffy marshmallow-style filling.",
+      "image_url": "/_products/images/candy/korean-choco-pie.png",
+      "price": 2.5
+    },
+    {
+      "id": 4,
+      "name": "Mexican Lucas Muecas",
+      "description": "A fun Mexican sweet with a fruity candy centre and a tangy chilli-flavoured powder to dip it in.",
+      "image_url": "/_products/images/candy/lucas-muecas.png",
+      "price": 2
+    },
+    {
+      "id": 6,
+      "name": "Thai Bento Squid Snack",
+      "description": "A popular Thai sweet-and-spicy seafood snack with a bold flavour and chewy texture.",
+      "image_url": "/_products/images/candy/thai-bento-squid.png",
+      "price": 2.5
+    },
+    {
+      "id": 7,
+      "name": "Australian Allen's Party Mix",
+      "description": "A colourful mix of soft, chewy jelly lollies in a variety of fruity shapes and flavours.",
+      "image_url": "/_products/images/candy/allens-party-mix.png",
+      "price": 4
+    },
+    {
+      "id": 8,
+      "name": "Turkish Ülker Albeni",
+      "description": "A layered chocolate bar with a soft caramel centre and a crispy biscuit base.",
+      "image_url": "/_products/images/candy/ulker-albeni.png",
+      "price": 2
+    },
+    {
+      "id": 10,
+      "name": "Swedish BUBS Sour Skulls",
+      "description": "Swedish foam candy with a soft, chewy texture and a fruity sour flavour.",
+      "image_url": "/_products/images/candy/bubs-sour-skulls.png",
+      "price": 3.5
+    },
+    {
+      "id": 11,
+      "name": "Japanese Hi-Chew Mango",
+      "description": "Soft and chewy Japanese fruit candy with a sweet, juicy mango flavour.",
+      "image_url": "/_products/images/candy/hi-chew-mango.png",
+      "price": 2.5
+    },
+    {
+      "id": 13,
+      "name": "Indian Parle Melody",
+      "description": "A chewy caramel candy with a smooth chocolate-flavoured centre.",
+      "image_url": "/_products/images/candy/parle-melody.png",
+      "price": 2
+    },
+    {
+      "id": 14,
+      "name": "Indonesian Kopiko Coffee Candy",
+      "description": "Hard coffee-flavoured candies made with a rich roasted coffee taste.",
+      "image_url": "/_products/images/candy/kopiko-coffee-candy.png",
+      "price": 2.5
+    },
+    {
+      "id": 15,
+      "name": "Polish Michałki Chocolate",
+      "description": "Polish chocolate sweets with a creamy peanut filling and crunchy nut pieces.",
+      "image_url": "/_products/images/candy/polish-michalki.png",
+      "price": 3.5
+    }
+  ]
 }
