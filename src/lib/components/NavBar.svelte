@@ -35,7 +35,7 @@ function handleClick()
             {/each}
         </div>
     </div>
-    <div class="mt-auto">
+    <div class="mt-auto grid gap-2">
         <SearchBar/>
         <Button class="w-full" onclick={handleClick}>Login</Button>
     </div>
